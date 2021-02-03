@@ -1,0 +1,25 @@
+.main {
+    height: 40vh;
+    width: 80%;
+    margin: 0 auto;
+
+    section {
+        h1 {
+            font-family: 'poppins';
+            font-size: 2rem;
+            text-align: center;
+            color: #ffffff;
+            padding-top: 2rem;
+            padding-bottom: 1.5rem;
+        }
+
+        article {
+            p {
+                font-family: 'open-sans';
+                font-size: 1.33rem;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+    }
+}

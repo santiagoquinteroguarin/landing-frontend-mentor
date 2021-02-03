@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+
+    &__wrap {
+        width: 80%;
+        margin: 0 auto;
+    
+        picture {
+            img {
+                margin-top: 2rem;
+                width: 12rem;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+}

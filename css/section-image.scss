@@ -1,0 +1,12 @@
+.image-section {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    &__illustration {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 80%;
+        }
+    }
+}

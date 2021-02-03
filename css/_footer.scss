@@ -1,0 +1,32 @@
+.footer {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        width: 100px;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        
+
+        li {
+            a {
+
+                i {
+                    font-size: 1.6rem;
+                    color: white;
+
+                    &:hover {
+                        color: rgba(128, 0, 128, 0.664);
+                        box-shadow: 0 .1rem .6rem 0 #20212447;
+                        border-radius: 50%;
+                        border-color: #dfe1e500;
+                    }
+                }
+            }
+        }
+    }
+}

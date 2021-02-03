@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background:  hsl(257, 40%, 49%);
+}
+
+.button {
+    height: 3.5rem;
+    width: 17rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'poppins';
+    font-size: 1.3rem;
+    color: hsl(257, 40%, 49%);
+
+    &:hover {
+        background-color: rgba(128, 0, 128, 0.664);
+        color: #ffffff;
+        box-shadow: 0 .1rem .6rem 0 #20212447;
+        border-color: #dfe1e500;
+    }
+}
